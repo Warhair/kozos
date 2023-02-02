@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="John Doe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+        <title>Tegzes Márton</title>
+    </head>
+    <body>
+        <main class="container-fluid row">
+            <header class="col-xl-12">
+                Webáruház
+            </header>
+            <nav class=" col-xl-12 navbar navbar-expand-sm bg-light">
+
+                <div class="container-fluid">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Kezdőlap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Galéria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="meret_tablazat.html">Mérettáblázat</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+            <aside class="col-xl-3">
+                <div class="mb-3 mt-3">
+                    <label for="TM" class="form-label">Termék név:</label>
+                    <input type="TM" class="form-control" id="t"
+                        placeholder="Termék név" name="TM">
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="customRange" class="form-label">Szűrés ár
+                        szerint</label>
+                    <input type="range" class="form-range" id="customRange"
+                        min="0" max="20000" value="5000">
+                </div>
+            </aside>
+            <article class="col-xl-6 row">
+                <div class="card col-lg-3 col-md-4 col-sm-6">
+                    <div class="card-header text-success"><h2>Retró gamer férfi
+                            poló</h2></div>
+                    <div class="card-body"><img src="kepek/kepek/polo1.jpg"
+                            alt="polo1" class="img-thumbnail rounded"> <p data-bs-toggle="collapse" data-bs-target="#demo">A pólódat kifordítva 30 fokon, szárítógép használata nélkül mosd ki, így vigyázva a 100% pamut szövet és a nyomat minőségére. ...</p>
+                            <div id="demo" class="collapse">
+                                Ez azért fontos, mert a magas hőfokú, száraz környezetben a centrifugális erő mellett megsérülne a minta.
+                            </div>
+                        </div>
+                    <div class="card-footer row"><span class="col-6">Ár: 6990</span><button
+                            class="btn btn-success text-warning col-6">Kosárba</button></div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-6">
+                    <div class="card-header text-success"><h2>Tuléltem még egy
+                            meetinget</h2></div>
+                    <div class="card-body"><img src="kepek/kepek/polo2.jpg"
+                            alt="polo1" class="img-thumbnail rounded"> <p data-bs-toggle="collapse" data-bs-target="#demo1">Legnépszerűbb prémium pólónk, ami garantáltan a kedvenced lesz! ...</p>
+                            <div id="demo1" class="collapse">
+                                Simogatni-valóan puha anyag, rövid ujj és testhez állóbb fazon a stílusos és kényelmes megjelenésért. Ha szereted a laza viseletet, rendelj egy mérettel nagyobbat!
+                            </div>
+                        </div>
+                    <div class="card-footer row"><span class="col-6">Ár: 6990</span><button
+                            class="btn btn-success text-warning col-6">Kosárba</button></div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-6">
+                    <div class="card-header text-success"><h2>Az éveim múlásával</h2></div>
+                    <div class="card-body"><img src="kepek/kepek/polo3.jpg"
+                            alt="polo1" class="img-thumbnail rounded"> <p data-bs-toggle="collapse" data-bs-target="#demo2">Vicces póló , vicces ajándék, szülinapi ajándék! ...</p>
+                            <div id="demo2" class="collapse">
+                                Divatos póló, akár hétköznapi viseletként is megállja a helyét , nagyon jó minőségű anyaga miatt. Az általunk gyártott pólóknál nem kell attól tartanod, hogy kinyúlik az anyag, kifakul, vagy berepedezik a minta. Anyaga 100% Pamut Mérettáblázatot a képek között találsz. 25 féle szín közül választhatsz!
+                            </div>
+                        </div>
+                    <div class="card-footer row"><span class="col-6">Ár: 6990</span><button
+                            class="btn btn-success text-warning col-6">Kosárba</button></div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-6">
+                    <div class="card-header text-success"><h2>I hate...</h2></div>
+                    <div class="card-body"><img src="kepek/kepek/polo4.jpg"
+                            alt="polo1" class="img-thumbnail rounded"> <p data-bs-toggle="collapse" data-bs-target="#demo3">Vicces póló , vicces ajándék, szülinapi ajándék! ...</p>
+                            <div id="demo3" class="collapse">
+                            Divatos póló, akár hétköznapi viseletként is megállja a helyét , nagyon jó minőségű anyaga miatt. Az általunk gyártott pólóknál nem kell attól tartanod, hogy kinyúlik az anyag, kifakul, vagy berepedezik a minta. Anyaga 100% Pamut Mérettáblázatot a képek között találsz. 25 féle szín közül választhatsz!
+                            </div>
+                       </div>
+                    <div class="card-footer row"><span class="col-6">Ár: 6990</span><button
+                            class="btn btn-success text-warning col-6">Kosárba</button></div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-6">
+                    <div class="card-header text-success"><h2>Kézeld el az
+                            életet</h2></div>
+                    <div class="card-body"><img src="kepek/kepek/polo5.jpg"
+                            alt="polo1" class="img-thumbnail rounded"> <p data-bs-toggle="collapse" data-bs-target="#demo4">Népszerű pólómárka, ami már nálunk is elérhető ...</p>
+                            <div id="demo4" class="collapse">
+                                A hosszított fazon és a vékony, 146 g/m2 anyagvastagság garantálja a kényelmes viseletet. 100% gyűrűs fonású fésült pamutból készül, válltól vállig megerősített és beszegett nyakkivágással. Emellett a dupla tűzésű karkivágás és derékrész biztosítja a kiváló minőséget és formatartást.
+                            </div>
+                        </div>
+                    <div class="card-footer row"><span class="col-6">Ár: 6990</span><button
+                            class="btn btn-success text-warning col-6">Kosárba</button></div>
+                </div>
+            </article>
+            <aside class="col-xl-3">
+            </aside>
+            <footer class="col-xl-12">
+                Tegzes Márton
+            </footer>
+        </main>
+    </body>
+</html>
